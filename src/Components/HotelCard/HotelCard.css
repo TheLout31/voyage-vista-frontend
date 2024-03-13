@@ -1,0 +1,18 @@
+@import url("https://light-ui-library.netlify.app/import.css");
+
+
+.content{
+    text-align: left;
+}
+.price{
+    font-weight: 600;
+    font-size: 0.87 rem;
+}
+
+.title{
+    font-weight: 500;
+}
+
+.subtitle{
+    font-weight: 200;
+}

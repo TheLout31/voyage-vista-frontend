@@ -1,0 +1,18 @@
+@import url("https://light-ui-library.netlify.app/import.css");
+
+.search{
+    width: 200px;
+}
+
+.voyage {
+    font-weight: bold;
+  }
+  
+  .vista {
+    color: #ffffff; /* White color */
+  }
+
+.text{
+    font-size: 18px;
+    font-weight: 900;
+}

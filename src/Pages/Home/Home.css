@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15rem 0rem 2rem 2rem;
+  
+}
+
+.gap-larger{
+  gap: 4rem;
+}
