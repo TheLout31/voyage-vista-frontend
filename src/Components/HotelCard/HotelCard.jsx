@@ -1,8 +1,20 @@
 import "./HotelCard.css";
+import { useNavigate } from "react-router-dom";
+
 export const HotelCard = ({ hotels }) => {
   const { _id, name, image, address, state, price, rating } = hotels;
+
+  const navigate = useNavigate();
+
+  const handlehotelCardClick = () => {
+    navigate(`/hotels/${_id}`);
+  };
+
   return (
-    <div className="card-component mainContainer">
+    <div
+      className="card-component mainContainer"
+      onClick={handlehotelCardClick}
+    >
       <div className="card-comp-img">
         <img className="card-top-img" src={image} alt="loading" srcset="" />
       </div>
