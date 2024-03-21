@@ -45,7 +45,7 @@ export const Categories = () => {
         categories.map(({ category }) => (
           <span
             className={`${
-              category == hotelCategory ? "border-bottom" : "span-text"
+              category == hotelCategory ? "border-bottom" : "span-text bellota-text-regular"
             }`}
             key={category._id}
             onClick={() => handleCategoryclick(category)}

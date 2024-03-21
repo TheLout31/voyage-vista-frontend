@@ -23,8 +23,9 @@ export const Home = () => {
       <Navbar />
       <Categories/>
       <main className="main gap-larger">
-        {hotel &&
-          hotel.map((item) => <HotelCard key={item._id} hotels={item} />)}
+        {hotel ? hotel.map((item) => <HotelCard key={item._id} hotels={item} />): <div>Loading...</div> }
+       {/* {hotel &&
+          hotel.map((item) => <HotelCard key={item._id} hotels={item} />)} */}
       </main>
     </Fragment>
   );

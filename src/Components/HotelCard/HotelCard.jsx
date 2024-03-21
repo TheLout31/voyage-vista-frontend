@@ -20,12 +20,12 @@ export const HotelCard = ({ hotels }) => {
       </div>
       <div className="card-badge">new</div>
       <div className="card-comp-contant" style={{ textAlign: "left" }}>
-        <h2 className="card-h2">
+        <h2 className="card-h2 bellota-text-regular">
           {name}, {state}
         </h2>
-        <h3 className="card-h3">{address}</h3>
-        <span className="price">Rs{price}</span>
-        <span>/night</span>
+        <h3 className="card-h3 bellota-text-light">{address}</h3>
+        <span className="price bellota-text-light">Rs {price}</span>
+        <span className="bellota-text-regular">/night</span>
       </div>
       <div className="card-btn-footer">
         <div className="rating-star">

@@ -29,10 +29,10 @@ export const Navbar = () => {
         </div>
 
         <ul className="nav-center ">
-          <li className="text">New Releases</li>
-          <li className="text">Men</li>
-          <li className="text">Women</li>
-          <li className="text">Kids</li>
+          <li className="bellota-text-bold">New Releases</li>
+          <li className="bellota-text-bold">Men</li>
+          <li className="bellota-text-bold">Women</li>
+          <li className="bellota-text-bold">Kids</li>
         </ul>
         <div className="right-nav">
           <div className="search-navbar ">

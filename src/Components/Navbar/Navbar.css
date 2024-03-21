@@ -1,18 +1,27 @@
 @import url("https://light-ui-library.netlify.app/import.css");
 
-.search{
-    width: 200px;
+.search {
+  width: 200px;
 }
 
 .voyage {
-    font-weight: bold;
-  }
-  
-  .vista {
-    color: #ffffff; /* White color */
-  }
+  font-weight: bold;
+}
 
-.text{
-    font-size: 18px;
-    font-weight: 900;
+.vista {
+  color: #ffffff; /* White color */
+}
+
+.text {
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Bellota Text", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bellota-text-bold {
+  font-family: "Bellota Text", sans-serif;
+  font-weight: bold;
+  font-style: normal;
 }

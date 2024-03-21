@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+.hotel-details-container {
+  margin-top: 100px;
+  font-family: "Bellota Text", sans-serif;
+}
+
+.gap-small {
+  gap: 8px;
+}
+
+.host-details .p {
+  color: black;
+  font-size: 1rem;
+}
+
+.span {
+  color: black;
+  font-size: 1.2rem;
+  margin: 5px;
+}
+
+.host-details .span {
+  display: block;
+  padding-top: 10px;
+}
+
+.font-bold {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.fs-large {
+  font-size: 1.25rem;
+}
+
+.apps {
+  font-size: 1rem;
+}
+
+.host-details {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid grey;
+}
+
+.hotel-room-details {
+  padding-top: 8px;
+}
+
+.gutter-bottom-small {
+  padding-bottom: 1.5rem;
+}
+
+.amenities {
+    padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.amenities-container .span {
+  padding: 0.5rem 0;
+}
