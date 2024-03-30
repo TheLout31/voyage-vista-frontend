@@ -4,14 +4,16 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { CategoryProvider } from "./Context";
+import { CategoryProvider, DateProvider } from "../src/Context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <CategoryProvider>
-        <App />
+        <DateProvider>
+          <App />
+        </DateProvider>
       </CategoryProvider>
     </BrowserRouter>
   </React.StrictMode>

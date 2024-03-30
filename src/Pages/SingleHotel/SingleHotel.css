@@ -10,12 +10,20 @@
 
   .bellota-text-light {
     font-family: "Bellota Text", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    font-size: 15px;
   }
   
   .bellota-text-regular {
     font-family: "Bellota Text", sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     font-style: normal;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .below-cont{
+    display: flex;
+    align-items: center;
   }

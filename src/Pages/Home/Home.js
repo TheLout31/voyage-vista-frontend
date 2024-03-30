@@ -12,7 +12,7 @@ export const Home = () => {
       try {
         const { data } = await axios.get(`https://rich-teal-dog-kit.cyclic.app/api/hotels?category=${hotelCategory}`);
         setHotel(data);
-        console.log(data)
+        
       } catch (e) {
         console.log(e);
       }

@@ -1,7 +1,12 @@
 import axios from "axios";
 import { Fragment, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { HotelDetails, HotelImages, Navbar } from "../../Components";
+import {
+  HotelDetails,
+  HotelImages,
+  Navbar,
+  FinalPrice,
+} from "../../Components";
 import "./SingleHotel.css";
 
 export const SingleHotel = () => {
@@ -34,7 +39,10 @@ export const SingleHotel = () => {
               {name}, {country}
             </span>
             <HotelImages SingleHotel={SingleHotel} />
-            <HotelDetails SingleHotel={SingleHotel} />
+            <div className="below-cont">
+              <HotelDetails SingleHotel={SingleHotel} />
+              <FinalPrice singleHotel={SingleHotel} />
+            </div>
           </Fragment>
         ) : (
           <p>Loading...</p>

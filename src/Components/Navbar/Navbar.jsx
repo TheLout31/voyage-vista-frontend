@@ -1,7 +1,18 @@
 import "./Navbar.css";
 import logo from "../../Images/travel-bag.png"; // Adjust the path as per your folder structure
+import { useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
+  const navigate = useNavigate();
+
+  const handleJoinUsButton = () => {
+    navigate("/api/auth/");
+  };
+
+  const handleRegisterButton = () => {
+    navigate("/api/auth/register");
+  };
+
   return (
     <header>
       <div className="user-ac">
@@ -10,12 +21,12 @@ export const Navbar = () => {
             <p className="text">Help</p>
           </button>
           <span>|</span>
-          <button className="user-ac-btn join-btn">
-            <p className="text">Join Us</p>
+          <button className="user-ac-btn join-btn" onClick={handleJoinUsButton}>
+            <p className="text">Log In</p>
           </button>
           <span>|</span>
-          <button className="user-ac-btn sign-btn">
-            <p className="text">Sign In</p>
+          <button className="user-ac-btn sign-btn" onClick={handleRegisterButton}>
+            <p className="text">Sign Up</p>
           </button>
         </div>
       </div>
@@ -29,10 +40,10 @@ export const Navbar = () => {
         </div>
 
         <ul className="nav-center ">
-          <li className="bellota-text-bold">New Releases</li>
-          <li className="bellota-text-bold">Men</li>
-          <li className="bellota-text-bold">Women</li>
-          <li className="bellota-text-bold">Kids</li>
+          <li className="bellota-text-bold">New Hotels</li>
+          <li className="bellota-text-bold">Camp</li>
+          <li className="bellota-text-bold">Resort</li>
+          <li className="bellota-text-bold">Room</li>
         </ul>
         <div className="right-nav">
           <div className="search-navbar ">

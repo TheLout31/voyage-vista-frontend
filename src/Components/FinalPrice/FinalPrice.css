@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+.price-details-container {
+  align-self: flex-start;
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem;
+  width: 25rem;
+  margin-left: auto;
+  margin-top: 12rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.guests {
+  border: 1px solid grey;
+  padding: 4px 0;
+  text-align: left;
+}
+
+.gutter-sm {
+  padding: 8px 1rem;
+}
+
+.btn-reserve {
+  width: 100%;
+  padding: 1rem;
+  color: black;
+}
+
+.price-distribution {
+  padding-top: 1rem;
+}
+
+.final-price {
+  padding: 10px;
+}
+
+.final-price:last-child {
+  border-top: 1px solid grey;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.guest-count-input {
+  border: none;
+}
+
+.guest-count-input:focus {
+  outline: none;
+}
+
+.bellota-text-light {
+  font-family: "Bellota Text", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bellota-text-regular {
+  font-family: "Bellota Text", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.display-container{
+  display: flex;
+}
+
+.text-color{
+  color: white;
+}
